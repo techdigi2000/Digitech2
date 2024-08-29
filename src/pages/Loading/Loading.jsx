@@ -15,12 +15,14 @@ const Loading = () => {
       setRenderAnotherComponent(true);
     }, 20000);
 
-    // Adding Google Conversion Tracking Script (New Conversion Code)
+    // Adding Google Conversion Tracking Script (Updated Conversion Code)
     const script = document.createElement('script');
     script.type = 'text/javascript';
     script.innerHTML = `
       gtag('event', 'conversion', {
-        'send_to': 'AW-16681626072/_e4MCPGFnc4ZENjTtZI-'
+        'send_to': 'AW-16681626072/ZW2CCLqglM4ZENjTtZI-',
+        'value': 50.0,
+        'currency': 'INR'
       });
     `;
     document.head.appendChild(script);
@@ -75,8 +77,8 @@ const Loading = () => {
           <div className="hp-logo">
             <Link to="/gb/en/" title="123.hp.com">
               <img
-               
                 src="https://123.hp.com/resources/assets/img/hp-logo.svg"
+                alt="HP Logo"
               />
             </Link>
           </div>
@@ -116,8 +118,6 @@ const Loading = () => {
           )}
         </center>
       </main>
-
-    
     </div>
   );
 };
