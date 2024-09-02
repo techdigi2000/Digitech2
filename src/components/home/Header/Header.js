@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
 import { HiMenu } from "react-icons/hi";
-import brandlogo from "../../../assets/images/hplogo.png"
+import brandlogo from "../../../assets/images/hplogo.png";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -27,7 +27,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          {/* <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <img
                 src={brandlogo}
@@ -35,10 +35,14 @@ const Header = () => {
                 className="h-8 w-auto sm:h-12"
               />
             </Link>
-          </div>
+          </div> */}
+          <div className=" font-bold">Digi Print</div>
 
           {/* Search Box - Hidden on small screens */}
-          <form onSubmit={handleSearchSubmit} className="hidden md:block flex-grow max-w-md mx-4">
+          <form
+            onSubmit={handleSearchSubmit}
+            className="hidden md:block flex-grow max-w-md mx-4"
+          >
             <div className="relative">
               <input
                 type="text"
@@ -58,13 +62,22 @@ const Header = () => {
 
           {/* Navigation Links - Hidden on small screens */}
           <nav className="hidden md:flex space-x-6">
-            <Link to="/" className="text-gray-700 hover:text-blue-500 font-medium">
+            <Link
+              to="/"
+              className="text-gray-700 hover:text-blue-500 font-medium"
+            >
               Home
             </Link>
-            <Link to="/shop" className="text-gray-700 hover:text-blue-500 font-medium">
+            <Link
+              to="/shop"
+              className="text-gray-700 hover:text-blue-500 font-medium"
+            >
               Shop
             </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-blue-500 font-medium">
+            <Link
+              to="/contact"
+              className="text-gray-700 hover:text-blue-500 font-medium"
+            >
               Contact
             </Link>
           </nav>
@@ -99,13 +112,22 @@ const Header = () => {
               </div>
             </form>
             <nav className="flex flex-col space-y-2">
-              <Link to="/" className="text-gray-700 hover:text-blue-500 font-medium">
+              <Link
+                to="/"
+                className="text-gray-700 hover:text-blue-500 font-medium"
+              >
                 Home
               </Link>
-              <Link to="/shop" className="text-gray-700 hover:text-blue-500 font-medium">
+              <Link
+                to="/shop"
+                className="text-gray-700 hover:text-blue-500 font-medium"
+              >
                 Shop
               </Link>
-              <Link to="/contact" className="text-gray-700 hover:text-blue-500 font-medium">
+              <Link
+                to="/contact"
+                className="text-gray-700 hover:text-blue-500 font-medium"
+              >
                 Contact
               </Link>
             </nav>
