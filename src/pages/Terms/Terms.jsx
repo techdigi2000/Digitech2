@@ -9,7 +9,7 @@ const Terms = () => {
         &#9658; Terms & Conditions
       </h1>
       <p className="mb-4">
-        Welcome to DigiPrint LLC! By using our website and services, you agree
+        Welcome to Digi Print! By using our website and services, you agree
         to comply with the following terms and conditions.
       </p>
       <h3 className="font-semibold mb-2">&#9658; Use of Website:</h3>
@@ -25,7 +25,7 @@ const Terms = () => {
       </p>
       <h3 className="font-semibold mb-2">&#9658; Orders and Payments:</h3>
       <p className="mb-4">
-        All orders are subject to acceptance by DigiPrint LLC. We reserve the
+        All orders are subject to acceptance by Digi Print. We reserve the
         right to refuse or cancel any order at any time. Payment for products
         must be made at the time of purchase.
       </p>
@@ -48,12 +48,12 @@ const Terms = () => {
       <h3 className="font-semibold mb-2">&#9658; Intellectual Property:</h3>
       <p className="mb-4">
         All content on our website, including text, images, logos, and banners,
-        is the property of DigiPrint LLC or its affiliates and is protected by
+        is the property of Digi Print or its affiliates and is protected by
         copyright laws.
       </p>
       <h3 className="font-semibold mb-2">&#9658; Limitation of Liability:</h3>
       <p className="mb-4">
-        DigiPrint LLC is not liable for any direct, indirect, incidental, or
+        Digi Print is not liable for any direct, indirect, incidental, or
         consequential damages that may result from the use of our products or
         website.
       </p>
