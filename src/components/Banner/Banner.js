@@ -75,8 +75,6 @@ function App() {
   return (
     <div className="container mx-auto px-4 py-8">
       <Banner type="sale" offer={20} />
-      <Banner type="freeShipping" offer={100} />
-      <Banner type="newArrival" offer="OfficeJet Pro 9015e" />
       <Banner />
     </div>
   );
