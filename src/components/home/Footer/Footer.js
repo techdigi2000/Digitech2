@@ -34,12 +34,12 @@ const Footer = () => {
           <FooterListTitle title="Digi Print" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%]">
-              Welcome to Digi Print,
+              Welcome to DigiPrint LLC,
               <br /> where you can discover all your printing needs. Explore our
               wide range of state-of-the-art printers designed to deliver
               outstanding performance, dependability, and quality.
             </p>
-            {/* <ul className="flex items-center gap-2">
+            <ul className="flex items-center gap-2">
               <a href="/" target="_blank" rel="noreferrer">
                 <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
                   <FaYoutube />
@@ -60,7 +60,7 @@ const Footer = () => {
                   <FaLinkedin />
                 </li>
               </a>
-            </ul> */}
+            </ul>
           </div>
         </div>
         <div>
