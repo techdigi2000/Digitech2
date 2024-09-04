@@ -12,9 +12,9 @@ import WirelessPrinterSetup from "../../components/PrinterSetup/PrinterSetup";
 const Home = () => {
   return (
     <div className="w-full mx-auto">
-      {/* <BlueNavbar /> */}
+      <BlueNavbar />
       <Banner />
-      {/* <Sale /> */}
+      <Sale />
       <BannerBottom />
       <div className="max-w-container mx-auto px-4">
         <NewArrivals />
