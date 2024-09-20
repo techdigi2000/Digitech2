@@ -7,9 +7,9 @@ function Setup() {
     const imagesToPreload = [
       "https://123.hp.com/resources/assets/img/hp-logo.svg",
       "https://123.hp.com/resources/assets/img/defaultPrinterSetup.png",
-      "https://123.hp.com/resources/assets/img/person_assist.svg"
+      "https://123.hp.com/resources/assets/img/person_assist.svg",
     ];
-    imagesToPreload.forEach(src => {
+    imagesToPreload.forEach((src) => {
       const img = new Image();
       img.src = src;
     });
@@ -74,12 +74,8 @@ function Setup() {
       <div className="header-123" id="header-123">
         <div className="header-container">
           <div className="hp-logo">
-            <Link
-              to="/setup"
-              title="123.hp.com - Printer setup from the HP® Official site"
-            >
+            <Link to="/">
               <img
-                alt="123.hp.com - Printer setup from the HP® Official site"
                 src="https://123.hp.com/resources/assets/img/hp-logo.svg"
                 width="50"
                 height="50"
@@ -196,8 +192,8 @@ function Setup() {
                 <div className="support-item">
                   <div className="support-header horizontal">
                     <div className="support-header-icon">
-                      <img 
-                        src="https://123.hp.com/resources/assets/img/person_assist.svg" 
+                      <img
+                        src="https://123.hp.com/resources/assets/img/person_assist.svg"
                         alt="Support icon"
                         width="24"
                         height="24"
